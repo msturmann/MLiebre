@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bienvenidxs a MercadoLiebre - Registro</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="top-header">
+                <div class="logo"> 
+                    <a href="/"><img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre"></a>
+                </div>
+                <div class="container-form">
+                    <div class="searchForm">
+                        <form action="" method="GET">
+                          <input type="text" placeholder="Buscar productos, marcas" />
+                            <div class="searchIcon">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div> 
+                <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+            <nav>
+                <div class="navBar">
+                    <div class="navBarLeft">
+                        <ul>
+                            <li><a href="#">Ofertas</a></li>
+                            <li><a href="#">Tiendas Oficiales</a></li>
+                            <li><a href="#">Vender</a></li>
+                            <li><a href="#">Ayuda</a></li>
+                        </ul>
+                    </div>
+                    <div class="navBarRight"></div>
+                        <ul>
+                        <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                        <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                        <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="burger-menu">
+                <i class="fa fa-bars burger"></i>
+            </div>
+        </header>
+        <main>
+            <div class= "register-container">
+                <form action="/" id="registerForm">
+                <div class="registerForm-name">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Nombre y apellido"/>
+                </div>
+                <div class="registerForm-username">
+                    <label for="username"></label>
+                    <input type="text" name="username" id="username" placeholder="Nombre de usuari@"/>
+                </div>
+                <div class="registerForm-bday">
+                    <label for="birthdate">Fecha de Nacimiento:</label><br>
+                    <input type="date" name="bday" id="bday"/>
+                </div>
+                <div class="registerForm-address">
+                    <label for="address"></label>
+                    <input type="text" name="address" id="address" placeholder="Domicilio"/>
+                </div>
+                <div class="registerForm-profile">
+                    <p>Perfil de usuari@</p>
+                    <label class="registerForm-button" for="buyer">
+                    <input class="radioButton" type="radio" id="buyer" name="profile" value="buyer" />Comprador</label>
+                    <label for="seller" class="registerForm-button">
+                    <input class="radioButton" type="radio" id="seller" name="profile" value="seller" />Vendedor</label>
+                </div>
+                <div class="registerForm-interest">
+                    <p>Intereses</p>
+                    <label class="registerForm-button">
+                    <input  class="radioButton" type="checkbox" name="category" id="electro" value="electro"/>Electro
+                    </label>
+                    <label class="registerForm-button">
+                    <input  class="radioButton" type="checkbox" name="category" id="moda" value="moda" />Moda</label>
+                    <label class="registerForm-button">
+                    <input  class="radioButton" type="checkbox" name="category" id="hogar" value="hogar" />Hogar</label>
+                    <label class="registerForm-button">
+                    <input  class="radioButton" type="checkbox" name="category" id="jugueteria" value="jugueteria"/>Juguetería</label>
+                    <label class="registerForm-button">
+                    <input  class="radioButton" type="checkbox" name="category" id="vidaSana" value="vidaSana"
+                    />Vida Sana</label>
+                </div>
+                <div class="registerForm-userPic">
+                    <p>Foto de usuari@</p>
+                    <label for="photo"></label>
+                    <input class="registerForm-file" type="file" name="photo" id="photo" accept="image/*" />
+                </div>
+                <div class="registerForm-password">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Ingresar contraseña"/>
+                </div>
+                <div class="registerForm-passwordRepeat">
+                    <label for="passwordRepeat"></label>
+                    <input type="password" id="passwordRepeat" name="passwordRepeat" placeholder="Repetir contraseña"/>
+                </div>
+                <div class="form_register_buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar todo el formulario</button>
+                </div>
+                </form>
+            </div>
+          </main>
+          <footer>
+            <div class = "flex-container-footer">
+                <div class = "flex-container-footer-column">
+                    <i class="fas fa-credit-card"></i>
+                    <h4>Pagá con tarjeta o en efectivo</h4>
+                    <p>
+                        Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!
+                    </p>
+                </div>
+                <div class = "flex-container-footer-column">
+                    <i class="fas fa-gift"></i>
+                    <h4>Envío gratis desde $ 2.500</h4>
+                    <p>
+                        Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.
+                    </p>
+                </div>
+                <div class = "flex-container-footer-column">
+                    <i class="fas fa-user-shield"></i>
+                    <h4>Seguridad, de principio a fin</h4>
+                    <p>
+                        ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.
+                    </p>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        
+        </footer>
+    </body>
+</html>
